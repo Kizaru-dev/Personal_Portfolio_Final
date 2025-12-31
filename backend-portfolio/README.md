@@ -1,16 +1,70 @@
-# React + Vite
+# Priyanshu - Backend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Hero Section](./public/screenshots/hero.png)
 
-Currently, two official plugins are available:
+A professional, high-performance portfolio website designed for Backend Developers. Built with **React**, **Tailwind CSS**, and **Framer Motion**, featuring a modern dark-themed UI that developers love.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Terminal-Inspired Design**: Dark mode aesthetic with code-like visual elements.
+- **Interactive UI**: Smooth animations and transitions using Framer Motion.
+- **Responsive Layout**: Fully optimized for Desktop, Tablet, and Mobile devices.
+- **Project Showcase**: Grid layout to display backend architectures, APIs, and systems.
+- **Skills Matrix**: Categorized tech stack display.
+- **Contact Form**: Functional design for potential clients or recruiters.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React (Vite)
+- **Styling**: Tailwind CSS (v3)
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend Technologies Highlighted
+- **Languages**: Java, Python
+- **Frameworks**: Spring Boot, Express.js
+- **Databases**: MySQL, MongoDB, Redis
+- **DevOps**: Docker, Kubernetes, AWS
+- **Other**: Servlet/JSP
+
+## 📸 Screenshots
+
+### Projects Section
+![Projects Section](./public/screenshots/projects.png)
+
+### Contact Section
+![Contact Section](./public/screenshots/contact.png)
+
+## 🏃‍♂️ How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/backend-portfolio.git
+   cd backend-portfolio
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**
+   ```bash
+   npm run dev
+   ```
+
+## 🎨 Customization
+
+You can easily customize the colors in `tailwind.config.js`:
+
+```javascript
+colors: {
+  primary: "#0F172A", // Background
+  secondary: "#1E293B", // Cards
+  accent: "#38BDF8", // Highlights
+}
+```
+
+## 📄 License
+
+MIT License © 2025 Priyanshu Singh

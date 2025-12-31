@@ -1,5 +1,7 @@
 # Priyanshu - Backend Developer Portfolio
 
+**🔗 [Live Demo](https://your-deployed-website.com)** | **[View Code](https://github.com/Kizaru-dev/Personal_Portfolio_Final)**
+
 ![Hero Section](./public/screenshots/hero.png)
 
 A professional, high-performance portfolio website designed for Backend Developers. Built with **React**, **Tailwind CSS**, and **Framer Motion**, featuring a modern dark-themed UI that developers love.
@@ -39,7 +41,7 @@ A professional, high-performance portfolio website designed for Backend Develope
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/backend-portfolio.git
+   git clone https://github.com/Kizaru-dev/Personal_Portfolio_Final.git
    cd backend-portfolio
    ```
 

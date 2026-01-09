@@ -24,9 +24,10 @@ const Contact = () => {
                 <div className="flex flex-col lg:flex-row gap-12">
                     {/* Form */}
                     <motion.div
-                        initial={{ opacity: 0, x: -20 }}
+                        initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        transition={{ duration: 0.6 }}
                         className="lg:w-2/3"
                     >
                         <form className="space-y-6">
@@ -63,7 +64,7 @@ const Contact = () => {
 
                             <button
                                 type="button"
-                                className="px-8 py-3 bg-btnBlue hover:bg-blue-600 text-white rounded-lg font-medium transition-all shadow-lg shadow-blue-500/25 flex items-center justify-center gap-2 w-full md:w-auto"
+                                className="px-8 py-3 bg-btnBlue hover:bg-blue-600 text-white rounded-lg font-medium transition-all shadow-lg shadow-blue-500/25 flex items-center justify-center gap-2 w-full md:w-auto transform hover:-translate-y-1"
                             >
                                 Send Message
                                 <Send size={18} />
@@ -73,13 +74,13 @@ const Contact = () => {
 
                     {/* Contact Info */}
                     <motion.div
-                        initial={{ opacity: 0, x: 20 }}
+                        initial={{ opacity: 0, x: 30 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: 0.2 }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        transition={{ duration: 0.6, delay: 0.2 }}
                         className="lg:w-1/3 space-y-6"
                     >
-                        <div className="p-6 bg-secondary/50 rounded-xl border border-slate-800">
+                        <div className="p-6 bg-secondary/50 rounded-xl border border-slate-800 hover:border-accent/50 transition-colors">
                             <h3 className="text-xl font-bold text-white mb-6">Contact Info</h3>
 
                             <div className="flex items-start gap-4 mb-6">
@@ -104,10 +105,10 @@ const Contact = () => {
                         </div>
 
                         <div className="p-6 bg-gradient-to-br from-blue-900/20 to-secondary/50 rounded-xl border border-blue-900/30">
-                            <p className="text-slate-300 text-sm leading-relaxed">
+                            <p className="text-slate-300 text-sm leading-relaxed italic">
                                 "Code is like humor. When you have to explain it, it’s bad."
                             </p>
-                            <p className="text-slate-500 text-xs mt-4">— Cory House</p>
+                            <p className="text-slate-500 text-xs mt-4 font-semibold">— Cory House</p>
                         </div>
                     </motion.div>
                 </div>

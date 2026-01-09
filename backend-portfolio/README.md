@@ -27,6 +27,25 @@ A professional, high-performance portfolio website designed for Backend Develope
 - **DevOps**: Docker, Kubernetes, AWS
 - **Other**: Servlet/JSP
 
+## 🎬 Featured Project: Netflix-Style Blogging Platform
+
+![Netflix Blog Preview](./src/assets/refined-netflix-blog.png)
+
+A premium, cinematic full-stack blogging web application built with **Spring Boot** and **Thymeleaf**. This project features a high-end UI/UX inspired by the Netflix interface, complete with glassmorphism, cinematic typography, and smooth micro-animations.
+
+### 🚀 Key Features
+- **Cinematic UI/UX**: Professional Netflix-inspired dark theme with custom CSS variables.
+- **Glassmorphic Components**: High-end blur effects and translucent borders.
+- **Action Dashboard**: Manage stories instantly by ID with a custom cinematic search-style interface.
+- **Full CRUD Operations**: Robust backend system for managing blog posts.
+- **MVC Architecture**: Clean separation of concerns (Controller, Service, Repository, Model).
+
+### 🛠 Project Tech Stack
+- **Backend**: Java 21, Spring Boot
+- **Database**: MySQL (with Spring Data JPA / Hibernate)
+- **Frontend**: Thymeleaf, Bootstrap 5, Vanilla CSS
+- **Build Tool**: Maven
+
 ## 📸 Screenshots
 
 ### Projects Section

@@ -1,8 +1,8 @@
 # Priyanshu - Backend Developer Portfolio
 
-**🔗 [Live Demo](https://your-deployed-website.com)** | **[View Code](https://github.com/Kizaru-dev/Personal_Portfolio_Final)**
+**🔗 [Live Demo](https://priyanshu-backend-dev.surge.sh)** | **[View Code](https://github.com/Kizaru-dev/Personal_Portfolio_Final)**
 
-![Hero Section](./public/screenshots/hero.png)
+![Hero Section](https://priyanshu-backend-dev.surge.sh/screenshots/hero.png)
 
 A professional, high-performance portfolio website designed for Backend Developers. Built with **React**, **Tailwind CSS**, and **Framer Motion**, featuring a modern dark-themed UI that developers love.
 
@@ -32,10 +32,10 @@ A professional, high-performance portfolio website designed for Backend Develope
 ## 📸 Screenshots
 
 ### Projects Section
-![Projects Section](./public/screenshots/projects.png)
+![Projects Section](https://priyanshu-backend-dev.surge.sh/screenshots/projects.png)
 
 ### Contact Section
-![Contact Section](./public/screenshots/contact.png)
+![Contact Section](https://priyanshu-backend-dev.surge.sh/screenshots/contact.png)
 
 ## 🏃‍♂️ How to Run Locally
 
